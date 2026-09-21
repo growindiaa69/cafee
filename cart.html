@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Metadata -->
+    <title>Your Shopping Cart | Aroma & Crust Artisan Cafe</title>
+    <meta name="description" content="View your selected wood-fired pizzas, prime Angus smash burgers, and beverages. Fast and secure checkout with contactless delivery.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://aromacrustcafe.com/cart.html">
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./image/pngegg.png" alt="Aroma and Crust Cafe Logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="./products.html">products</a>
+            <a href="./review.html">review</a>
+            <a href="./faq.html">faq</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn" aria-label="Search">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn" aria-label="Cart">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search menu...">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <!-- Dynamically populated by script.js -->
+        </div>
+    </header>
+    <!-- -------------------------------------------HEADER SECTION -->
+
+    <!-- -------------------------------------------DEDICATED CART PAGE SECTION -->
+    <section class="cart-page-section">
+        <h1 class="heading">your <span>shopping cart</span></h1>
+        
+        <!-- Cart Dynamic Container (Managed by script.js) -->
+        <div id="cart-page-content">
+            <!-- Loaded from localStorage -->
+        </div>
+    </section>
+    <!-- -------------------------------------------DEDICATED CART PAGE SECTION -->
+
+    <!-- -------------------------------------------CHECKOUT SUCCESS MODAL -->
+    <div class="checkout-modal-overlay" id="checkout-modal">
+        <div class="checkout-modal">
+            <i class="fas fa-check-circle"></i>
+            <h2>Order Received!</h2>
+            <p>Thank you for choosing Aroma & Crust Artisan Cafe. Your fresh order has been sent to our stone oven kitchen and will arrive at your door in 25–35 minutes.</p>
+            <a href="./index.html" class="btn">Back to Home</a>
+        </div>
+    </div>
+    <!-- -------------------------------------------CHECKOUT SUCCESS MODAL -->
+
+    <!-- -------------------------------------------FOOTER SECTION -->
+    <footer class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="btn btn-primary" aria-label="Search">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+            <a href="#" class="fab fa-pinterest" aria-label="Pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="./products.html">products</a>
+            <a href="./review.html">review</a>
+            <a href="./faq.html">faq</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
+            <a href="./cart.html">cart</a>
+        </div>
+        <div class="credit">
+            &copy; 2026 <span>Aroma & Crust Artisan Cafe</span> | all rights reserved
+        </div>
+    </footer>
+    <!-- -------------------------------------------FOOTER SECTION -->
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
