@@ -1,6 +1,6 @@
 # Aroma & Crust Artisan Cafe — Modern Responsive Website
 
-A responsive, multipage culinary website for **Aroma & Crust Artisan Cafe**, specializing in handcrafted wood-fired pizzas, 100% prime Angus smash burgers, and specialty organic coffee.
+A responsive, multipage culinary website for **Aroma & Crust Artisan Cafe**, specializing in handcrafted wood-fired pizzas, 100% prime Angus smash burgers, and specialty organic coffee. 
 
 ## 🚀 Key Features
 
