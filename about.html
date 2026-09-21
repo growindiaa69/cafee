@@ -4,131 +4,145 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & AEO Primary Metadata -->
+    <title>About Us | Aroma & Crust Artisan Cafe Story & Philosophy</title>
+    <meta name="description" content="Discover the culinary story of Aroma & Crust Cafe. Learn about our 24-hour slow-fermented wood-fired pizza dough and 100% prime Angus smash burgers.">
+    <meta name="keywords" content="About Aroma and Crust Cafe, artisan culinary story, wood-fired sourdough pizza, prime Angus beef, specialty coffee cafe">
+    <meta name="author" content="Aroma & Crust Artisan Cafe">
+    <link rel="canonical" href="https://aromacrustcafe.com/about.html">
+
+    <!-- Schema.org AboutPage Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "mainEntity": {
+        "@type": "Restaurant",
+        "name": "Aroma & Crust Artisan Cafe",
+        "description": "Artisan cafe and bistro famous for hand-stretched wood-fired pizzas, prime Angus burgers, and specialty organic coffee.",
+        "telephone": "+1-555-276-6223",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "452 Artisan Boulevard, Suite 100",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
+          "postalCode": "10001",
+          "addressCountry": "US"
+        }
+      }
+    }
+    </script>
+
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>About | Nizami Sevindi</title>
 </head>
 <body>
 
     <!-------------------------------------------- HEADER SECTION -->
-    <header class="header" >
-        <a href="#" class="logo">
-            <img src="./image/pngegg.png" alt="logo">
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./image/pngegg.png" alt="Aroma and Crust Cafe Logo">
         </a>
         <nav class="navbar">
             <a href="./index.html">home</a>
-            <a href="./about.html" class="active" >about</a>
-            <a href="./menu.html" >menu</a>
+            <a href="./about.html" class="active">about</a>
+            <a href="./menu.html">menu</a>
             <a href="./products.html">products</a>
             <a href="./review.html">review</a>
+            <a href="./faq.html">faq</a>
             <a href="./contact.html">contact</a>
             <a href="./blog.html">blog</a>
         </nav>
         <div class="buttons">
-            <button id="search-btn">
+            <button id="search-btn" aria-label="Search">
                 <i class="fas fa-search"></i>
             </button>
-            <button id="cart-btn">
+            <button id="cart-btn" aria-label="Cart">
                 <i class="fas fa-shopping-cart"></i>
             </button>
-            <button id="menu-btn">
+            <button id="menu-btn" aria-label="Menu">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
         <div class="search-form">
-            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <input type="text" class="search-input" id="search-box" placeholder="Search menu items...">
             <i class="fas fa-search"></i>
         </div>
         <div class="cart-items-container">
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (1).png" alt="menu">
+                <img src="./image/pngwing.com (1).png" alt="Wood-fired mixed pizza slice">
                 <div class="content">
-                    <h3>cart item 01</h3>
-                    <div class="price">$15.99 </div>
+                    <h3>Artisan Mixed Pizza</h3>
+                    <div class="price">$15.99</div>
                 </div>
             </div>
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (2).png" alt="menu">
+                <img src="./image/pngwing.com (2).png" alt="Prime brioche burger">
                 <div class="content">
-                    <h3>cart item 02</h3>
-                    <div class="price">$16.99 </div>
+                    <h3>Prime Angus Burger</h3>
+                    <div class="price">$16.99</div>
                 </div>
             </div>
-            <div class="cart-item">
-                <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (3).png" alt="menu">
-                <div class="content">
-                    <h3>cart item 03</h3>
-                    <div class="price">$13.99 </div>
-                </div>
-            </div>
-            <div class="cart-item">
-                <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (4).png" alt="menu">
-                <div class="content">
-                    <h3>cart item 04</h3>
-                    <div class="price">$12.99 </div>
-                </div>
-            </div>
-            <a href="#" class="btn">check out </a>
+            <a href="./contact.html" class="btn">check out</a>
         </div>
     </header>
     <!-- -------------------------------------------HEADER SECTION -->
         
     <!-- -------------------------------------------ABOUT US SECTION -->
     <section class="about" id="about">
-        <h1 class="heading">about <span>us</span> </h1>
+        <h1 class="heading">about <span>us</span></h1>
 
         <div class="row">
             <div class="image">
-                <img src="./image/pngwing.com (7).png" alt="">
+                <img src="./image/pngwing.com (7).png" alt="Fresh artisan burger and pizza ingredients with secret seasoning">
             </div>
             <div class="content">
-                <h3>What is the secret receipe of our burgers</h3>
+                <h3>The Secret Behind Our Artisan Kitchen</h3>
                 <div class="paragraph">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officia id et, corrupti assumenda.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officia id et, corrupti assumenda.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia officia id et, corrupti assumenda.</p>
+                    <p>Founded on a passion for culinary honesty, Aroma & Crust Cafe brings together old-world Italian dough craft and modern American smash-burger grilling under one roof.</p>
+                    <p>Every pizza crust undergoes a 24 to 48-hour cold fermentation process, allowing natural enzymes to build an airy, light, and digestible sourdough structure that bakes to blistered perfection inside 850°F stone deck ovens.</p>
+                    <p>Our smash burgers start with 100% prime grass-fed Angus chuck, seared hard on seasoned planchas to lock in rich caramelized umami flavor, topped with melted Wisconsin cheddar and tucked into artisanal brioche buns.</p>
                 </div>
-                    <a href="#" class="btn">Learn More</a>
+                <a href="./menu.html" class="btn">Explore Our Menu</a>
             </div>
         </div>
     </section>
     <!-- -------------------------------------------ABOUT US SECTION -->
     
     <!-- -------------------------------------------FOOTER SECTION -->
-    <section class="footer">
+    <footer class="footer">
         <div class="search">
-            <input type="text" class="search-input" placeholder="Search">
-            <button class="btn btn-primary">search</button>
+            <input type="text" class="search-input" placeholder="Search our cafe...">
+            <button class="btn btn-primary" aria-label="Search">search</button>
         </div>
         <div class="share">
-            <a href="#" class="fab fa-facebook"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+            <a href="#" class="fab fa-pinterest" aria-label="Pinterest"></a>
         </div>
         <div class="links">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
-            <a href="#products">products</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
-            <a href="#blog">blog</a>
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="./products.html">products</a>
+            <a href="./review.html">review</a>
+            <a href="./faq.html">faq</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
         </div>
         <div class="credit">
-            creaated by <span>Nizami Sevindi</span> | all rights reserved!
+            &copy; 2026 <span>Aroma & Crust Artisan Cafe</span> | all rights reserved
         </div>
-    </section>
+    </footer>
     <!-- -------------------------------------------FOOTER SECTION -->
 
-<script src="./script.js"></script>
-
+    <script src="./script.js"></script>
 </body>
 </html>
