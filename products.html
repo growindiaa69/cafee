@@ -4,177 +4,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & AEO Primary Metadata -->
+    <title>Signature Products & Burgers | Aroma & Crust Artisan Cafe</title>
+    <meta name="description" content="Explore handcrafted prime Angus smash burgers at Aroma & Crust Cafe. Bacon smash, classic cheddar, and double Angus burgers seared fresh to order.">
+    <meta name="keywords" content="Angus smash burger, bacon burger, double burger, cheese burger, artisan burgers, best smash burger">
+    <meta name="author" content="Aroma & Crust Artisan Cafe">
+    <link rel="canonical" href="https://aromacrustcafe.com/products.html">
+
+    <!-- Schema.org Product Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Signature Burgers",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "position": 1,
+          "name": "Bacon Smash Burger",
+          "description": "Gourmet smash patty with smoked applewood bacon, crisp pickles, and melted cheese on brioche.",
+          "offers": {
+            "@type": "Offer",
+            "price": "6.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "position": 2,
+          "name": "Classic Cheddar Burger",
+          "description": "Prime Angus beef patty topped with aged Wisconsin cheddar and secret house relish.",
+          "offers": {
+            "@type": "Offer",
+            "price": "12.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "position": 3,
+          "name": "Double Angus Smash Burger",
+          "description": "Two seared prime Angus patties layered with double cheese and caramelized sweet onions.",
+          "offers": {
+            "@type": "Offer",
+            "price": "24.00",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+    </script>
+
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Our Products | Nizami Sevindi</title>
 </head>
 <body>
 
     <!-------------------------------------------- HEADER SECTION -->
-    <header class="header" >
-        <a href="#" class="logo">
-            <img src="./image/pngegg.png" alt="logo">
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./image/pngegg.png" alt="Aroma and Crust Cafe Logo">
         </a>
         <nav class="navbar">
             <a href="./index.html">home</a>
             <a href="./about.html">about</a>
-            <a href="./menu.html" >menu</a>
+            <a href="./menu.html">menu</a>
             <a href="./products.html" class="active">products</a>
             <a href="./review.html">review</a>
+            <a href="./faq.html">faq</a>
             <a href="./contact.html">contact</a>
             <a href="./blog.html">blog</a>
         </nav>
         <div class="buttons">
-            <button id="search-btn">
+            <button id="search-btn" aria-label="Search">
                 <i class="fas fa-search"></i>
             </button>
-            <button id="cart-btn">
+            <button id="cart-btn" aria-label="Cart">
                 <i class="fas fa-shopping-cart"></i>
             </button>
-            <button id="menu-btn">
+            <button id="menu-btn" aria-label="Menu">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
         <div class="search-form">
-            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <input type="text" class="search-input" id="search-box" placeholder="Search products...">
             <i class="fas fa-search"></i>
         </div>
         <div class="cart-items-container">
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (1).png" alt="menu">
+                <img src="./image/pngwing.com (1).png" alt="Mixed Pizza">
                 <div class="content">
-                    <h3>cart item 01</h3>
-                    <div class="price">$15.99 </div>
+                    <h3>Artisan Mixed Pizza</h3>
+                    <div class="price">$15.99</div>
                 </div>
             </div>
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (2).png" alt="menu">
+                <img src="./image/pngwing.com (2).png" alt="Prime Brioche Burger">
                 <div class="content">
-                    <h3>cart item 02</h3>
-                    <div class="price">$16.99 </div>
+                    <h3>Prime Angus Burger</h3>
+                    <div class="price">$16.99</div>
                 </div>
             </div>
-            <div class="cart-item">
-                <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (3).png" alt="menu">
-                <div class="content">
-                    <h3>cart item 03</h3>
-                    <div class="price">$13.99 </div>
-                </div>
-            </div>
-            <div class="cart-item">
-                <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (4).png" alt="menu">
-                <div class="content">
-                    <h3>cart item 04</h3>
-                    <div class="price">$12.99 </div>
-                </div>
-            </div>
-            <a href="#" class="btn">check out </a>
+            <a href="./contact.html" class="btn">check out</a>
         </div>
     </header>
     <!-- -------------------------------------------HEADER SECTION -->
-  <!-- -------------------------------------------PRODUCTS SECTION -->
-  <section class="products" id="products">
-    <h1 class="heading">our <span>products</span> </h1>
-    <div class="box-container">
-        <div class="box">
-            <div class="box-head">
-                <span class="title">mini burger</span>
-                <a href="#" class="name">Bacon Burger</a>
-            </div>
-            <div class="image">
-                <img src="./image/pngwing.com (6).png" alt="">
-            </div>
-            <div class="box-bottom">
-                <div class="info">
-                    <b class="price">$6.00</b>
-                    <span class="amount">110gr / 300 Cal</span>
-                </div>
-                <div class="product-btn">
-                    <a href="#">
-                        <i class="fas fa-plus"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="box-head">
-                <span class="title">cheese burger</span>
-                <a href="#" class="name">cheese Burger</a>
-            </div>
-            <div class="image">
-                <img src="./image/pngwing.com (4).png" alt="">
-            </div>
-            <div class="box-bottom">
-                <div class="info">
-                    <b class="price">$12.00</b>
-                    <span class="amount">140gr / 2500 Cal</span>
-                </div>
-                <div class="product-btn">
-                    <a href="#">
-                        <i class="fas fa-plus"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="box-head">
-                <span class="title">Double burger</span>
-                <a href="#" class="name">Double Burger</a>
-            </div>
-            <div class="image">
-                <img src="./image/pngwing.com (5).png" alt="">
-            </div>
-            <div class="box-bottom">
-                <div class="info">
-                    <b class="price">$24.00</b>
-                    <span class="amount">440gr / 600 Cal</span>
-                </div>
-                <div class="product-btn">
-                    <a href="#">
-                        <i class="fas fa-plus"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- -------------------------------------------PRODUCTS SECTION -->
 
-<!-- -------------------------------------------FOOTER SECTION -->
-    <section class="footer">
-        <div class="search">
-            <input type="text" class="search-input" placeholder="Search">
-            <button class="btn btn-primary">search</button>
-        </div>
-        <div class="share">
-            <a href="#" class="fab fa-facebook"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-pinterest"></a>
-        </div>
-        <div class="links">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
-            <a href="#products">products</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
-            <a href="#blog">blog</a>
-        </div>
-        <div class="credit">
-            creaated by <span>Nizami Sevindi</span> | all rights reserved!
+    <!-- -------------------------------------------PRODUCTS SECTION -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Crispy Bacon</span>
+                    <a href="./contact.html" class="name">Bacon Smash Burger</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (6).png" alt="Bacon smash burger with crispy bacon and cheese">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$6.00</b>
+                        <span class="amount">110g / 350 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="./contact.html" aria-label="Order Bacon Smash Burger">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Aged Cheddar</span>
+                    <a href="./contact.html" class="name">Classic Cheeseburger</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (4).png" alt="Classic cheddar cheeseburger on toasted sesame bun">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$12.00</b>
+                        <span class="amount">180g / 580 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="./contact.html" aria-label="Order Classic Cheeseburger">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Double Angus</span>
+                    <a href="./contact.html" class="name">Double Angus Burger</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (5).png" alt="Double patty prime Angus burger with melted cheese">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$24.00</b>
+                        <span class="amount">380g / 820 Cal</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="./contact.html" aria-label="Order Double Angus Burger">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- -------------------------------------------PRODUCTS SECTION -->
+
+    <!-- -------------------------------------------FOOTER SECTION -->
+    <footer class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search products...">
+            <button class="btn btn-primary" aria-label="Search">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+            <a href="#" class="fab fa-pinterest" aria-label="Pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="./products.html">products</a>
+            <a href="./review.html">review</a>
+            <a href="./faq.html">faq</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
+        </div>
+        <div class="credit">
+            &copy; 2026 <span>Aroma & Crust Artisan Cafe</span> | all rights reserved
+        </div>
+    </footer>
     <!-- -------------------------------------------FOOTER SECTION -->
 
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 
 </body>
 </html>
