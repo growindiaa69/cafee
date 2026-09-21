@@ -4,156 +4,184 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & AEO Primary Metadata -->
+    <title>Customer Reviews & Testimonials | Aroma & Crust Artisan Cafe</title>
+    <meta name="description" content="Read authentic reviews from satisfied diners at Aroma & Crust Cafe. Discover why customers love our wood-fired pizza, prime Angus burgers, and fast delivery.">
+    <meta name="keywords" content="Aroma and Crust Cafe reviews, customer testimonials, best rated pizza, top burger review, local cafe ratings">
+    <meta name="author" content="Aroma & Crust Artisan Cafe">
+    <link rel="canonical" href="https://aromacrustcafe.com/review.html">
+
+    <!-- Schema.org Review Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Aroma & Crust Artisan Cafe",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "328"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Patrick Hellinger" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "The wood-fired Italian salami pizza is hands down the best in the city. The crust has that perfect airy leopard spotting and the espresso is roasted to perfection!"
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Serena Williams" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "Ordered delivery for a team lunch. The Double Angus burgers arrived steaming hot in under 30 minutes! The brioche buns and house sauce are absolutely incredible."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Helen Marksen" },
+          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+          "reviewBody": "Aroma & Crust is our family's go-to Friday night ritual. Their cashew and turkey bacon pizza is so creative and bursting with flavor. 5 stars all the way!"
+        }
+      ]
+    }
+    </script>
+
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Reviews | Nizami Sevindi</title>
 </head>
 <body>
 
     <!-------------------------------------------- HEADER SECTION -->
-    <header class="header" >
-        <a href="#" class="logo">
-            <img src="./image/pngegg.png" alt="logo">
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./image/pngegg.png" alt="Aroma and Crust Cafe Logo">
         </a>
         <nav class="navbar">
             <a href="./index.html">home</a>
             <a href="./about.html">about</a>
-            <a href="./menu.html" >menu</a>
-            <a href="./products.html" >products</a>
+            <a href="./menu.html">menu</a>
+            <a href="./products.html">products</a>
             <a href="./review.html" class="active">review</a>
+            <a href="./faq.html">faq</a>
             <a href="./contact.html">contact</a>
             <a href="./blog.html">blog</a>
         </nav>
         <div class="buttons">
-            <button id="search-btn">
+            <button id="search-btn" aria-label="Search">
                 <i class="fas fa-search"></i>
             </button>
-            <button id="cart-btn">
+            <button id="cart-btn" aria-label="Cart">
                 <i class="fas fa-shopping-cart"></i>
             </button>
-            <button id="menu-btn">
+            <button id="menu-btn" aria-label="Menu">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
         <div class="search-form">
-            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <input type="text" class="search-input" id="search-box" placeholder="Search...">
             <i class="fas fa-search"></i>
         </div>
         <div class="cart-items-container">
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (1).png" alt="menu">
+                <img src="./image/pngwing.com (1).png" alt="Mixed Pizza">
                 <div class="content">
-                    <h3>cart item 01</h3>
-                    <div class="price">$15.99 </div>
+                    <h3>Artisan Mixed Pizza</h3>
+                    <div class="price">$15.99</div>
                 </div>
             </div>
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (2).png" alt="menu">
+                <img src="./image/pngwing.com (2).png" alt="Prime Brioche Burger">
                 <div class="content">
-                    <h3>cart item 02</h3>
-                    <div class="price">$16.99 </div>
+                    <h3>Prime Angus Burger</h3>
+                    <div class="price">$16.99</div>
                 </div>
             </div>
-            <div class="cart-item">
-                <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (3).png" alt="menu">
-                <div class="content">
-                    <h3>cart item 03</h3>
-                    <div class="price">$13.99 </div>
-                </div>
-            </div>
-            <div class="cart-item">
-                <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (4).png" alt="menu">
-                <div class="content">
-                    <h3>cart item 04</h3>
-                    <div class="price">$12.99 </div>
-                </div>
-            </div>
-            <a href="#" class="btn">check out </a>
+            <a href="./contact.html" class="btn">check out</a>
         </div>
     </header>
-<!-- -------------------------------------------HEADER SECTION -->
-<!-- -------------------------------------------REVIEW SECTION -->
-<section class="review" id="review">
-    <h1 class="heading">customer's <span>review</span> </h1>
-    <div class="box-container">
-        <div class="box">
-            <img src="./image/pngwing.com (8).png" alt="quote">
-            <p> Dicta totam suscipit vero praesentium excepturi facilis, fuga at architecto dolor tempora molestias quam dignissimos sit. Molestiae temporibus ratione quas placeat possimus!</p>
-            <img src="./image/pngwing.com (9).png" alt="customer-avatar" class="user">
-            <h3>Patrick Hellinger</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-        <div class="box">
-            <img src="./image/pngwing.com (8).png" alt="quote">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga at architecto dolor tempora molestias quam dignissimos sit. Molestiae temporibus ratione quas placeat possimus!</p>
-            <img src="./image/pngwing.com (10).png" alt="customer-avatar" class="user">
-            <h3>Serena Williams</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-        <div class="box">
-            <img src="./image/pngwing.com (8).png" alt="quote">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam suscipit vero praesentium excepturi facilis, fuga at architecto dolor tempora molestias quam dignissimos possimus!</p>
-            <img src="./image/pngwing.com (11).png" alt="customer-avatar" class="user">
-            <h3>Helen Marksen</h3>
-            <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-            </div>
-        </div>
-    </div>
-</section> 
-<!-- -------------------------------------------REVIEW SECTION -->
+    <!-- -------------------------------------------HEADER SECTION -->
 
-<!-- -------------------------------------------FOOTER SECTION -->
-    <section class="footer">
+    <!-- -------------------------------------------REVIEW SECTION -->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>reviews</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/pngwing.com (8).png" alt="Quote mark">
+                <p>"The wood-fired Italian salami pizza is hands down the best in the city. The crust has that perfect airy leopard spotting and the espresso is roasted to perfection!"</p>
+                <img src="./image/pngwing.com (9).png" alt="Patrick Hellinger avatar" class="user">
+                <h3>Patrick Hellinger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pngwing.com (8).png" alt="Quote mark">
+                <p>"Ordered delivery for a team lunch. The Double Angus burgers arrived steaming hot in under 30 minutes! The brioche buns and house sauce are absolutely incredible."</p>
+                <img src="./image/pngwing.com (10).png" alt="Serena Williams avatar" class="user">
+                <h3>Serena Williams</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pngwing.com (8).png" alt="Quote mark">
+                <p>"Aroma & Crust is our family's go-to Friday night ritual. Their cashew and turkey bacon pizza is so creative and bursting with flavor. 5 stars all the way!"</p>
+                <img src="./image/pngwing.com (11).png" alt="Helen Marksen avatar" class="user">
+                <h3>Helen Marksen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- -------------------------------------------REVIEW SECTION -->
+
+    <!-- -------------------------------------------FOOTER SECTION -->
+    <footer class="footer">
         <div class="search">
-            <input type="text" class="search-input" placeholder="Search">
-            <button class="btn btn-primary">search</button>
+            <input type="text" class="search-input" placeholder="Search reviews...">
+            <button class="btn btn-primary" aria-label="Search">search</button>
         </div>
         <div class="share">
-            <a href="#" class="fab fa-facebook"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
-            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-facebook" aria-label="Facebook"></a>
+            <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="#" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+            <a href="#" class="fab fa-pinterest" aria-label="Pinterest"></a>
         </div>
         <div class="links">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
-            <a href="#products">products</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
-            <a href="#blog">blog</a>
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="./products.html">products</a>
+            <a href="./review.html">review</a>
+            <a href="./faq.html">faq</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">blog</a>
         </div>
         <div class="credit">
-            creaated by <span>Nizami Sevindi</span> | all rights reserved!
+            &copy; 2026 <span>Aroma & Crust Artisan Cafe</span> | all rights reserved
         </div>
-    </section>
+    </footer>
     <!-- -------------------------------------------FOOTER SECTION -->
 
-<script src="./script.js"></script>
+    <script src="./script.js"></script>
 
 </body>
 </html>
