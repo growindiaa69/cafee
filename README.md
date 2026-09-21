@@ -5,12 +5,6 @@ A responsive, multipage culinary website for **Aroma & Crust Artisan Cafe**, spe
 ## 🚀 Key Features
 
 - **Modern Responsive Design**: Fluid layout tailored for mobile, tablet, and desktop screens with custom navigation and interactive cart.
-- **AEO & SEO Optimized**:
-  - **Schema.org Structured Data (JSON-LD)**: Includes `Restaurant`, `CafeOrCoffeeShop`, `Menu`, `Product`, `Review`, `FAQPage`, and `Blog` schemas for high visibility in search engines and AI answer engines (ChatGPT, Perplexity, Google AI Overviews).
-  - **Direct Answer FAQ Accordion**: Q&A section formatted specifically for citation in AI search results.
-  - **Natural Culinary Copy**: Engaging, authentic menu descriptions with zero generic filler text.
-  - **Optimized High-Resolution Imagery**: Web-optimized images at crisp 1600px width for fast loading times (<1.5s).
-  - **Semantic HTML5 & Open Graph**: Full Open Graph social cards and accessible image `alt` attributes across all pages.
 
 ## 📂 Project Structure
 
