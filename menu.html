@@ -13,68 +13,91 @@
 <link rel="canonical" href="https://growindiaa69.github.io/cafee/index.html">
 
     <!-- Schema.org Menu Structured Data for Answer Engines -->
-    <script type="application/ld+json">
+      <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "Menu",
-      "name": "Aroma & Crust Cafe Artisan Menu",
-      "hasMenuSection": [
+      "@type": "BreadcrumbList",
+      "@id": "https://growindiaa69.github.io/cafee/menu.html#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "MenuSection",
-          "name": "Wood-Fired Artisan Pizzas",
-          "hasMenuItem": [
-            {
-              "@type": "MenuItem",
-              "name": "6 Mini Artisan Pizzas Platter",
-              "description": "Assorted wood-fired mini pizzas featuring Margherita, Quattro Formaggi, and Pepperoni.",
-              "offers": {
-                "@type": "Offer",
-                "price": "104.99",
-                "priceCurrency": "USD"
-              }
-            },
-            {
-              "@type": "MenuItem",
-              "name": "2 Large Mixed Artisan Pizzas",
-              "description": "Two 14-inch wood-fired sourdough pizzas with choice of gourmet meats and fresh basil.",
-              "offers": {
-                "@type": "Offer",
-                "price": "49.99",
-                "priceCurrency": "USD"
-              }
-            }
-          ]
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://growindiaa69.github.io/cafee/"
         },
         {
-          "@type": "MenuSection",
-          "name": "Gourmet Angus Smash Burgers",
-          "hasMenuItem": [
-            {
-              "@type": "MenuItem",
-              "name": "5 Mini Brioche Angus Burgers Combo",
-              "description": "Five slider-sized prime Angus smash burgers with aged cheddar and house special relish.",
-              "offers": {
-                "@type": "Offer",
-                "price": "99.99",
-                "priceCurrency": "USD"
-              }
-            },
-            {
-              "@type": "MenuItem",
-              "name": "3 Smoked Meatball Brioche Burgers",
-              "description": "Three Italian-style seasoned meatball burgers with marinara and melted smoked provolone.",
-              "offers": {
-                "@type": "Offer",
-                "price": "79.99",
-                "priceCurrency": "USD"
-              }
-            }
-          ]
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Menu",
+          "item": "https://growindiaa69.github.io/cafee/menu.html"
+        }
+      ]
+    },
+    {
+      "@type": "Menu",
+      "@id": "https://growindiaa69.github.io/cafee/menu.html#menu",
+      "url": "https://growindiaa69.github.io/cafee/menu.html",
+      "name": "Our Menu | Aroma & Crust Artisan Cafe Pizzas & Burgers",
+      "inLanguage": "en",
+      "mainEntityOfPage": "https://growindiaa69.github.io/cafee/menu.html",
+      "provider": {
+        "@id": "https://growindiaa69.github.io/cafee/#restaurant"
+      },
+      "breadcrumb": {
+        "@id": "https://growindiaa69.github.io/cafee/menu.html#breadcrumb"
+      },
+      "hasMenuItem": [
+        {
+          "@type": "MenuItem",
+          "name": "6 Mini Artisan Pizzas",
+          "description": "6 Mini Artisan Pizzas",
+          "offers": {
+            "@type": "Offer",
+            "price": "104.99",
+            "priceCurrency": "USD"
+          },
+          "image": "https://growindiaa69.github.io/cafee/image/pngwing.com.png"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "5 Mini Prime Burgers",
+          "description": "5 Mini Prime Burgers",
+          "offers": {
+            "@type": "Offer",
+            "price": "99.99",
+            "priceCurrency": "USD"
+          },
+          "image": "https://growindiaa69.github.io/cafee/image/pngwing.com%20(2).png"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "2 Mixed Artisan Pizzas",
+          "description": "2 Mixed Artisan Pizzas",
+          "offers": {
+            "@type": "Offer",
+            "price": "49.99",
+            "priceCurrency": "USD"
+          },
+          "image": "https://growindiaa69.github.io/cafee/image/pngwing.com%20(1).png"
+        },
+        {
+          "@type": "MenuItem",
+          "name": "3 Meatball Brioche Burgers",
+          "description": "3 Meatball Brioche Burgers",
+          "offers": {
+            "@type": "Offer",
+            "price": "79.99",
+            "priceCurrency": "USD"
+          },
+          "image": "https://growindiaa69.github.io/cafee/image/pngwing.com%20(3).png"
         }
       ]
     }
-    </script>
-
+  ]
+}
+</script>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome -->
