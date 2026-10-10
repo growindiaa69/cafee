@@ -14,27 +14,58 @@
 
     <!-- Schema.org LocalBusiness Structured Data for Local AEO -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "mainEntity": {
-        "@type": "Restaurant",
-        "name": "Aroma & Crust Artisan Cafe",
-        "telephone": "+1-555-276-6223",
-        "email": "contact@aromacrustcafe.com",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "452 Artisan Boulevard, Suite 100",
-          "addressLocality": "New York",
-          "addressRegion": "NY",
-          "postalCode": "10001",
-          "addressCountry": "US"
+      "@type": "BreadcrumbList",
+      "@id": "https://growindiaa69.github.io/cafee/contact.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://growindiaa69.github.io/cafee/"
         },
-        "openingHours": "Mo-Su 10:00-23:00"
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://growindiaa69.github.io/cafee/contact.html"
+        }
+      ]
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://growindiaa69.github.io/cafee/contact.html#webpage",
+      "url": "https://growindiaa69.github.io/cafee/contact.html",
+      "name": "Contact & Location | Aroma & Crust Artisan Cafe",
+      "description": "Contact Aroma & Crust Cafe. Find our address, phone number, opening hours, delivery area, and table booking form.",
+      "isPartOf": {
+        "@id": "https://growindiaa69.github.io/cafee/#website"
+      },
+      "mainEntity": {
+        "@id": "https://growindiaa69.github.io/cafee/#restaurant"
+      },
+      "breadcrumb": {
+        "@id": "https://growindiaa69.github.io/cafee/contact.html#breadcrumb"
+      }
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "https://growindiaa69.github.io/cafee/#restaurant",
+      "name": "Aroma & Crust Cafe",
+      "url": "https://growindiaa69.github.io/cafee/",
+      "telephone": "+1 (555) 276-6223",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1 (555) 276-6223",
+        "contactType": "customer service"
       }
     }
-    </script>
-
+  ]
+}
+</script>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome -->
