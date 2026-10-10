@@ -14,37 +14,46 @@
 
     <!-- Schema.org Blog Structured Data -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@type": "Blog",
-      "name": "Aroma & Crust Culinary Blog",
-      "description": "Insights, recipes, and artisanal techniques from our head chefs and master baristas.",
-      "blogPost": [
+      "@type": "BreadcrumbList",
+      "@id": "https://growindiaa69.github.io/cafee/blog.html#breadcrumb",
+      "itemListElement": [
         {
-          "@type": "BlogPosting",
-          "headline": "The Secret to 48-Hour Cold-Fermented Pizza Dough",
-          "author": { "@type": "Person", "name": "Chef Marco" },
-          "datePublished": "2026-08-15",
-          "description": "How 48-hour cold proofing breaks down complex starches to create a light, digestible, bubbly sourdough crust."
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://growindiaa69.github.io/cafee/"
         },
         {
-          "@type": "BlogPosting",
-          "headline": "Crafting the Ultimate Juicy Smash Burger",
-          "author": { "@type": "Person", "name": "Alex Vance" },
-          "datePublished": "2026-08-28",
-          "description": "The physics of the Maillard reaction: why high-heat smashing creates crispy edges and unbeatable juiciness."
-        },
-        {
-          "@type": "BlogPosting",
-          "headline": "How to Pair Specialty Coffee with Gourmet Bistro Food",
-          "author": { "@type": "Person", "name": "Chloe Lin" },
-          "datePublished": "2026-09-05",
-          "description": "Pairing acidic African pour-overs and chocolatey South American roasts with savory burgers and pizzas."
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://growindiaa69.github.io/cafee/blog.html"
         }
       ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://growindiaa69.github.io/cafee/blog.html#webpage",
+      "url": "https://growindiaa69.github.io/cafee/blog.html",
+      "name": "Culinary Blog & Recipes | Aroma & Crust Artisan Cafe",
+      "description": "Read the Aroma & Crust culinary blog. Expert baking techniques for slow-fermented pizza dough, smash burger secrets, and specialty coffee brewing.",
+      "isPartOf": {
+        "@id": "https://growindiaa69.github.io/cafee/#website"
+      },
+      "about": {
+        "@id": "https://growindiaa69.github.io/cafee/#restaurant"
+      },
+      "breadcrumb": {
+        "@id": "https://growindiaa69.github.io/cafee/blog.html#breadcrumb"
+      }
     }
-    </script>
-
+  ]
+}
+</script>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome -->
