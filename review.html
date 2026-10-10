@@ -13,39 +13,99 @@
 <link rel="canonical" href="https://growindiaa69.github.io/cafee/index.html">
 
     <!-- Schema.org Review Structured Data -->
-    <script type="application/ld+json">
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "@id": "https://growindiaa69.github.io/cafee/review.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://growindiaa69.github.io/cafee/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Review",
+          "item": "https://growindiaa69.github.io/cafee/review.html"
+        }
+      ]
+    },
+    {
+      "@type": "ItemPage",
+      "@id": "https://growindiaa69.github.io/cafee/review.html#webpage",
+      "url": "https://growindiaa69.github.io/cafee/review.html",
+      "name": "Customer Reviews & Testimonials | Aroma & Crust Artisan Cafe",
+      "description": "Read authentic reviews from satisfied diners at Aroma & Crust Cafe. Discover why customers love our wood-fired pizza, prime Angus burgers, and fast delivery.",
+      "isPartOf": {
+        "@id": "https://growindiaa69.github.io/cafee/#website"
+      },
+      "about": {
+        "@id": "https://growindiaa69.github.io/cafee/#restaurant"
+      },
+      "breadcrumb": {
+        "@id": "https://growindiaa69.github.io/cafee/review.html#breadcrumb"
+      }
+    },
+    {
       "@type": "Restaurant",
-      "name": "Aroma & Crust Artisan Cafe",
+      "@id": "https://growindiaa69.github.io/cafee/#restaurant",
+      "name": "Aroma & Crust Cafe",
+      "url": "https://growindiaa69.github.io/cafee/",
+      "telephone": "+1 (555) 276-6223",
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "328"
+        "ratingValue": "5.0",
+        "reviewCount": "2",
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "review": [
         {
           "@type": "Review",
-          "author": { "@type": "Person", "name": "Patrick Hellinger" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-          "reviewBody": "The wood-fired Italian salami pizza is hands down the best in the city. The crust has that perfect airy leopard spotting and the espresso is roasted to perfection!"
+          "reviewBody": "The wood-fired Italian salami pizza is hands down the best in the city. The crust has that perfect airy leopard spotting and the espresso is roasted to perfection!",
+          "author": {
+            "@type": "Person",
+            "name": "Patrick Hellinger"
+          }
         },
         {
           "@type": "Review",
-          "author": { "@type": "Person", "name": "Serena Williams" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-          "reviewBody": "Ordered delivery for a team lunch. The Double Angus burgers arrived steaming hot in under 30 minutes! The brioche buns and house sauce are absolutely incredible."
+          "reviewBody": "Ordered delivery for a team lunch. The Double Angus burgers arrived steaming hot in under 30 minutes! The brioche buns and house sauce are absolutely incredible.",
+          "author": {
+            "@type": "Person",
+            "name": "Serena Williams"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
         },
         {
           "@type": "Review",
-          "author": { "@type": "Person", "name": "Helen Marksen" },
-          "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-          "reviewBody": "Aroma & Crust is our family's go-to Friday night ritual. Their cashew and turkey bacon pizza is so creative and bursting with flavor. 5 stars all the way!"
+          "reviewBody": "Aroma & Crust is our family's go-to Friday night ritual. Their cashew and turkey bacon pizza is so creative and bursting with flavor. 5 stars all the way!",
+          "author": {
+            "@type": "Person",
+            "name": "Helen Marksen"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
         }
       ]
     }
-    </script>
-
+  ]
+}
+</script>
     <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome -->
