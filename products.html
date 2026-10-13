@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,67 +7,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO & AEO Primary Metadata -->
-    <title>Signature Products &amp; Burgers | Aroma &amp; Crust Artisan Cafe</title>
-    <meta name="description"
-        content="Explore handcrafted prime Angus smash burgers at Aroma & Crust Cafe. Bacon smash, classic cheddar, and double Angus burgers seared fresh to order.">
-    <meta name="keywords"
-        content="Angus smash burger, bacon burger, double burger, cheese burger, artisan burgers, best smash burger">
-    <meta name="author" content="Aroma & Crust Artisan Cafe">
+    <title>Our Products | Aroma &amp; Crust Cafe</title>
+
+    <meta name="description" content="Explore the products at Aroma & Crust Cafe, including the Bacon Smash Burger, Classic Cheeseburger and Double Angus Burger. View product details and prices.">
+
     <link rel="canonical" href="https://growindiaa69.github.io/cafee/products.html">
 
-    <!-- Schema.org Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://growindiaa69.github.io/cafee/products.html#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home",
-              "item": "https://growindiaa69.github.io/cafee/"
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "name": "Products",
-              "item": "https://growindiaa69.github.io/cafee/products.html"
-            }
-          ]
-        },
-        {
-          "@type": "CollectionPage",
-          "@id": "https://growindiaa69.github.io/cafee/products.html#webpage",
-          "url": "https://growindiaa69.github.io/cafee/products.html",
-          "name": "Signature Products & Burgers | Aroma & Crust Artisan Cafe",
-          "description": "Explore the Bacon Smash Burger, Classic Cheeseburger, and Double Angus Burger featured in the Aroma & Crust Cafe product collection.",
-          "isPartOf": {
-            "@id": "https://growindiaa69.github.io/cafee/#website"
-          },
-          "about": {
-            "@id": "https://growindiaa69.github.io/cafee/#restaurant"
-          },
-          "breadcrumb": {
-            "@id": "https://growindiaa69.github.io/cafee/products.html#breadcrumb"
-          }
-        }
-      ]
-    }
-    </script>
-
-    <!-- CSS LINK -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Fontawesome -->
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous"
         referrerpolicy="no-referrer">
+
+    <!-- Breadcrumb Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://growindiaa69.github.io/cafee/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Products",
+                "item": "https://growindiaa69.github.io/cafee/products.html"
+            }
+        ]
+    }
+    </script>
 </head>
 
 <body>
@@ -75,7 +49,8 @@
     <header class="header">
 
         <a href="./index.html" class="logo">
-            <img src="./image/pngegg.png" alt="Aroma and Crust Cafe Logo">
+            <img src="./image/pngegg.png"
+                 alt="Aroma & Crust Cafe Logo">
         </a>
 
         <nav class="navbar">
@@ -94,20 +69,21 @@
                 <i class="fas fa-search"></i>
             </button>
 
-            <button id="cart-btn" aria-label="Cart">
+            <button id="cart-btn" aria-label="Shopping cart">
                 <i class="fas fa-shopping-cart"></i>
             </button>
 
-            <button id="menu-btn" aria-label="Menu">
+            <button id="menu-btn" aria-label="Open menu">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
 
         <div class="search-form">
             <input type="text"
-                class="search-input"
-                id="search-box"
-                placeholder="Search products...">
+                   class="search-input"
+                   id="search-box"
+                   placeholder="Search products...">
+
             <i class="fas fa-search"></i>
         </div>
 
@@ -115,7 +91,10 @@
 
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (1).png" alt="Mixed Pizza">
+
+                <img src="./image/pngwing.com (1).png"
+                     alt="Artisan Mixed Pizza">
+
                 <div class="content">
                     <h3>Artisan Mixed Pizza</h3>
                     <div class="price">$15.99</div>
@@ -124,7 +103,10 @@
 
             <div class="cart-item">
                 <i class="fas fa-times"></i>
-                <img src="./image/pngwing.com (2).png" alt="Prime Brioche Burger">
+
+                <img src="./image/pngwing.com (2).png"
+                     alt="Prime Angus Burger">
+
                 <div class="content">
                     <h3>Prime Angus Burger</h3>
                     <div class="price">$16.99</div>
@@ -138,131 +120,217 @@
     <!-- END HEADER SECTION -->
 
 
-    <!-- CAFE PRODUCT INFORMATION: FIVE PARAGRAPHS -->
-    <section class="aeo-direct-answer-section"
-        aria-labelledby="product-information-heading"
-        style="box-sizing:border-box;max-width:100%;font-family:inherit;line-height:1.7;margin:2rem 0;padding:1.5rem;">
+    <!-- PRODUCT CONTENT: AEO FORMATTING FIX -->
+    <section class="product-information"
+             aria-labelledby="product-information-heading"
+             style="max-width:1100px; margin:40px auto; padding:20px; line-height:1.8; box-sizing:border-box;">
 
-        <div style="max-width:1100px;margin:0 auto;">
+        <h2 id="product-information-heading">
+            Explore Our Products
+        </h2>
 
-            <h2 id="product-information-heading"
-                style="font-size:1.6rem;font-weight:700;margin-bottom:1rem;color:inherit;">
-                Explore the Signature Products at Aroma &amp; Crust Cafe
-            </h2>
+        <p>
+            Explore the product selection at Aroma &amp; Crust Cafe.
+            The products section features burgers with their names,
+            images, displayed prices and serving information.
+            Visitors can review these details to compare the listed
+            burger options before making an ordering enquiry.
+        </p>
 
-            <p style="margin:0 0 1.25rem;line-height:1.7;">
-                Aroma &amp; Crust Cafe features a selection of burger products for guests who enjoy classic combinations and hearty flavours. The product collection includes the Bacon Smash Burger, Classic Cheeseburger, and Double Angus Burger. Each product has its own name, image, and displayed price, helping visitors compare the listed options and decide which burger they would like to explore before contacting the cafe to order.
-            </p>
+        <!-- SEMANTIC UNORDERED LIST -->
+        <h3>Featured Products</h3>
 
-            <p style="margin:0 0 1.25rem;line-height:1.7;">
-                The Bacon Smash Burger is one of the featured products on the Aroma &amp; Crust Cafe website. Its product card highlights crispy bacon and provides a listed price of $6.00, along with a displayed serving weight of 110 grams and an energy value of 350 calories. Visitors can use these details to identify the item and review the information shown on its product card before making an ordering enquiry.
-            </p>
+        <ul style="padding-left:25px; margin:15px 0 25px;">
 
-            <p style="margin:0 0 1.25rem;line-height:1.7;">
-                The Classic Cheeseburger is another option in the cafe's product collection, featuring aged cheddar in its product description. The website lists its price as $12.00 and displays a serving weight of 180 grams with an energy value of 580 calories. These visible details help customers distinguish the Classic Cheeseburger from the other listed burgers and compare the available product information in one place.
-            </p>
+            <li style="margin-bottom:10px;">
+                <strong>Artisan Mixed Pizza:</strong>
+                Listed in the header cart at $15.99.
+            </li>
 
-            <p style="margin:0 0 1.25rem;line-height:1.7;">
-                Guests looking for a larger burger option can explore the Double Angus Burger featured on the Aroma &amp; Crust Cafe products page. Its product card identifies the burger with a double Angus description and lists a price of $24.00, a serving weight of 380 grams, and an energy value of 820 calories. Customers can review these displayed details alongside the other burger choices before deciding which product best matches their preferences.
-            </p>
+            <li style="margin-bottom:10px;">
+                <strong>Prime Angus Burger:</strong>
+                Listed in the header cart at $16.99.
+            </li>
 
-            <p style="margin:0;line-height:1.7;">
-                The Aroma &amp; Crust Cafe products page brings the featured burgers together in a consistent layout with product names, images, prices, serving information, and order links. Visitors can compare the Bacon Smash Burger, Classic Cheeseburger, and Double Angus Burger without navigating between separate product pages. The website also provides menu, contact, and other navigation links, giving customers additional ways to explore the cafe and find information relevant to their visit.
-            </p>
+            <li style="margin-bottom:10px;">
+                <strong>Bacon Smash Burger:</strong>
+                The product card highlights crispy bacon.
+                Displayed price: $6.00.
+                Serving information: 110g / 350 Cal.
+            </li>
 
-        </div>
+            <li style="margin-bottom:10px;">
+                <strong>Classic Cheeseburger:</strong>
+                The product card highlights aged cheddar.
+                Displayed price: $12.00.
+                Serving information: 180g / 580 Cal.
+            </li>
+
+            <li style="margin-bottom:10px;">
+                <strong>Double Angus Burger:</strong>
+                The product card identifies the double Angus burger.
+                Displayed price: $24.00.
+                Serving information: 380g / 820 Cal.
+            </li>
+
+        </ul>
+
+
+        <!-- SEMANTIC ORDERED LIST -->
+        <h3>How to Compare Our Featured Burgers</h3>
+
+        <p>
+            Use the information displayed on each product card
+            to compare the available burger options.
+        </p>
+
+        <ol style="padding-left:25px; margin:15px 0 25px;">
+
+            <li style="margin-bottom:10px;">
+                <strong>Compare prices:</strong>
+                The Bacon Smash Burger is listed at $6.00,
+                the Classic Cheeseburger at $12.00,
+                and the Double Angus Burger at $24.00.
+            </li>
+
+            <li style="margin-bottom:10px;">
+                <strong>Review serving information:</strong>
+                The displayed details are 110g / 350 Cal
+                for the Bacon Smash Burger, 180g / 580 Cal
+                for the Classic Cheeseburger, and
+                380g / 820 Cal for the Double Angus Burger.
+            </li>
+
+            <li style="margin-bottom:10px;">
+                <strong>Identify the product:</strong>
+                Check the name, image and short description
+                on the relevant product card.
+            </li>
+
+            <li style="margin-bottom:10px;">
+                <strong>Make an enquiry:</strong>
+                Use the available contact link to enquire
+                about a product or ordering.
+            </li>
+
+        </ol>
+
+        <p>
+            Prices and serving details shown above reflect the
+            values displayed in the page content. For current
+            availability, ordering information or other product
+            details, contact the cafe directly.
+        </p>
+
     </section>
-    <!-- END FIVE-PARAGRAPH CAFE CONTENT -->
+    <!-- END PRODUCT CONTENT / AEO FORMATTING FIX -->
 
 
     <!-- PRODUCTS SECTION -->
     <section class="products" id="products">
 
-        <h1 class="heading">our <span>products</span></h1>
+        <h1 class="heading">
+            our <span>products</span>
+        </h1>
 
         <div class="box-container">
 
+            <!-- PRODUCT 1 -->
             <div class="box">
 
                 <div class="box-head">
                     <span class="title">Crispy Bacon</span>
-                    <a href="./contact.html" class="name">Bacon Smash Burger</a>
+                    <a href="./contact.html" class="name">
+                        Bacon Smash Burger
+                    </a>
                 </div>
 
                 <div class="image">
                     <img src="./image/pngwing.com (6).png"
-                        alt="Bacon smash burger with crispy bacon and cheese">
+                         alt="Bacon Smash Burger with crispy bacon">
                 </div>
 
                 <div class="box-bottom">
+
                     <div class="info">
                         <b class="price">$6.00</b>
                         <span class="amount">110g / 350 Cal</span>
                     </div>
 
                     <div class="product-btn">
-                        <a href="./contact.html" aria-label="Order Bacon Smash Burger">
+                        <a href="./contact.html"
+                           aria-label="Enquire about Bacon Smash Burger">
                             <i class="fas fa-plus"></i>
                         </a>
                     </div>
-                </div>
 
+                </div>
             </div>
 
 
+            <!-- PRODUCT 2 -->
             <div class="box">
 
                 <div class="box-head">
                     <span class="title">Aged Cheddar</span>
-                    <a href="./contact.html" class="name">Classic Cheeseburger</a>
+                    <a href="./contact.html" class="name">
+                        Classic Cheeseburger
+                    </a>
                 </div>
 
                 <div class="image">
                     <img src="./image/pngwing.com (4).png"
-                        alt="Classic cheddar cheeseburger on toasted sesame bun">
+                         alt="Classic Cheeseburger with aged cheddar">
                 </div>
 
                 <div class="box-bottom">
+
                     <div class="info">
                         <b class="price">$12.00</b>
                         <span class="amount">180g / 580 Cal</span>
                     </div>
 
                     <div class="product-btn">
-                        <a href="./contact.html" aria-label="Order Classic Cheeseburger">
+                        <a href="./contact.html"
+                           aria-label="Enquire about Classic Cheeseburger">
                             <i class="fas fa-plus"></i>
                         </a>
                     </div>
-                </div>
 
+                </div>
             </div>
 
 
+            <!-- PRODUCT 3 -->
             <div class="box">
 
                 <div class="box-head">
                     <span class="title">Double Angus</span>
-                    <a href="./contact.html" class="name">Double Angus Burger</a>
+                    <a href="./contact.html" class="name">
+                        Double Angus Burger
+                    </a>
                 </div>
 
                 <div class="image">
                     <img src="./image/pngwing.com (5).png"
-                        alt="Double patty prime Angus burger with melted cheese">
+                         alt="Double Angus Burger">
                 </div>
 
                 <div class="box-bottom">
+
                     <div class="info">
                         <b class="price">$24.00</b>
                         <span class="amount">380g / 820 Cal</span>
                     </div>
 
                     <div class="product-btn">
-                        <a href="./contact.html" aria-label="Order Double Angus Burger">
+                        <a href="./contact.html"
+                           aria-label="Enquire about Double Angus Burger">
                             <i class="fas fa-plus"></i>
                         </a>
                     </div>
-                </div>
 
+                </div>
             </div>
 
         </div>
@@ -274,8 +342,14 @@
     <footer class="footer">
 
         <div class="search">
-            <input type="text" class="search-input" placeholder="Search products...">
-            <button class="btn btn-primary" aria-label="Search">search</button>
+            <input type="text"
+                   class="search-input"
+                   placeholder="Search products...">
+
+            <button class="btn btn-primary"
+                    aria-label="Search">
+                search
+            </button>
         </div>
 
         <div class="share">
@@ -298,7 +372,9 @@
         </div>
 
         <div class="credit">
-            &copy; 2026 <span>Aroma &amp; Crust Artisan Cafe</span> | all rights reserved
+            &copy; 2026
+            <span>Aroma &amp; Crust Artisan Cafe</span>
+            | all rights reserved
         </div>
 
     </footer>
