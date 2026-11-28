@@ -21,4 +21,4 @@ User-agent: Bytespider
 Allow: /
 
 # Sitemap Location
-Sitemap: https://growindiaa69.github.io/sitemap.xml
+Sitemap: https://growindiaa69.github.io/cafee/sitemap.xml
